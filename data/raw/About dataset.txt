@@ -1,0 +1,27 @@
+Manufacturing Process Flow
+
+Factory Environment
+        │
+        ▼
+Raw Material
+        │
+        ▼
+Machine 1
+        │
+Machine 2
+        │
+Machine 3
+        │
+        ▼
+Combiner
+        │
+        ▼
+Primary Quality Inspection
+        │
+        ▼
+Machine 4
+        │
+Machine 5
+        │
+        ▼
+Final Quality Inspection
