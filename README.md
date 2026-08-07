@@ -191,7 +191,7 @@ This solution helps manufacturing teams to:
 
 ### Executive Overview
 
-powerbi/screenshots/executive overview.png
+[powerbi/screenshots/executive overview.png](https://github.com/vaibhav3098/Manufacturing-Quality-Intelligence/blob/42374329e04df52729e17ccb49b8f3229a71e921/powerbi/screenshots/executive%20overview.png)
 
 ---
 
