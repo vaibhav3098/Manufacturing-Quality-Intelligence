@@ -149,7 +149,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 - Combined SQL analytics with machine learning to support root-cause analysis.
 - Built an interactive Power BI dashboard for engineering decision-making.
 
-  ## 💼 Business Value
+## 💼 Business Value
 
 This solution helps manufacturing teams to:
 
@@ -158,3 +158,105 @@ This solution helps manufacturing teams to:
 - Monitor process stability through interactive dashboards.
 - Reduce manual analysis using predictive analytics.
 - Support data-driven manufacturing decisions.
+
+## 🚀 Skills Demonstrated
+
+### Data Analytics
+- SQL Data Validation
+- Root Cause Analysis
+- Manufacturing Process Analysis
+- Exploratory Data Analysis (EDA)
+
+### Machine Learning
+- Regression Modeling
+- XGBoost
+- Feature Importance Analysis
+- Hyperparameter Tuning
+- Model Evaluation
+
+### Business Intelligence
+- KPI Dashboard Design
+- Interactive Power BI Reports
+- Executive Reporting
+- Data Storytelling
+
+### Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+## 📷 Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](powerbi/screenshots/executive overview.png)
+
+---
+
+### Manufacturing Process Analysis
+
+![Process Analysis](powerbi/screenshots/process analysis.png)
+
+---
+
+### Model Performance
+
+![Model Performance](powerbi/screenshots/model performance.png)
+
+---
+
+### Model Diagnostics
+
+![Model Diagnostics](powerbi/screenshots/model diagnostics.png)
+
+## ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/Manufacturing-Quality-Intelligence.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+## ⭐ Project Highlights
+
+✔ End-to-End Manufacturing Analytics Project
+
+✔ SQL + Python + Machine Learning + Power BI
+
+✔ Real Manufacturing Dataset (~14,000 Records)
+
+✔ Predictive Quality Modeling using XGBoost
+
+✔ Executive Dashboard for Business Decision Support
+
+## 🔮 Future Improvements
+
+- Real-time manufacturing monitoring
+- Model deployment using FastAPI
+- Automated retraining pipeline
+- MLOps integration
+- Predictive maintenance extension
+- SPC (Statistical Process Control) integration
+
+- ## 👤 Author
+
+**Vaibhav Sharma**
+
+- LinkedIn: linkedin.com/in/vaibhav-sharma30
+- GitHub: https://github.com/vaibhav3098
+
+✔ Feature Importance driven Process Optimization
