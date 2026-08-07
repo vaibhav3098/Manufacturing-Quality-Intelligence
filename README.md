@@ -187,29 +187,29 @@ This solution helps manufacturing teams to:
 - Matplotlib
 - Seaborn
 
-## 📷 Dashboard Preview
+## 📸 Dashboard Preview
 
 ### Executive Overview
 
-[powerbi/screenshots/executive overview.png](https://github.com/vaibhav3098/Manufacturing-Quality-Intelligence/blob/42374329e04df52729e17ccb49b8f3229a71e921/powerbi/screenshots/executive%20overview.png)
+![Executive Overview](powerbi/screenshots/executive_overview.png)
 
 ---
 
 ### Manufacturing Process Analysis
 
-![Process Analysis](powerbi/screenshots/process analysis.png)
+![Process Analysis](powerbi/screenshots/process_analysis.png)
 
 ---
 
 ### Model Performance
 
-![Model Performance](powerbi/screenshots/model performance.png)
+![Model Performance](powerbi/screenshots/model_performance.png)
 
 ---
 
 ### Model Diagnostics
 
-![Model Diagnostics](powerbi/screenshots/model diagnostics.png)
+![Model Diagnostics](powerbi/screenshots/model_diagnostic.png)
 
 ## ⚙ Installation
 
