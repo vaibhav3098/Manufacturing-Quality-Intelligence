@@ -234,14 +234,11 @@ jupyter notebook
 ## ⭐ Project Highlights
 
 ✔ End-to-End Manufacturing Analytics Project
-
 ✔ SQL + Python + Machine Learning + Power BI
-
 ✔ Real Manufacturing Dataset (~14,000 Records)
-
 ✔ Predictive Quality Modeling using XGBoost
-
 ✔ Executive Dashboard for Business Decision Support
+✔ Feature Importance driven Process Optimization
 
 ## 🔮 Future Improvements
 
@@ -252,11 +249,11 @@ jupyter notebook
 - Predictive maintenance extension
 - SPC (Statistical Process Control) integration
 
-- ## 👤 Author
+## 👤 Author
 
 **Vaibhav Sharma**
 
 - LinkedIn: linkedin.com/in/vaibhav-sharma30
 - GitHub: https://github.com/vaibhav3098
 
-✔ Feature Importance driven Process Optimization
+
