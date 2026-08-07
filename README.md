@@ -191,7 +191,7 @@ This solution helps manufacturing teams to:
 
 ### Executive Overview
 
-![Executive Overview](powerbi/screenshots/executive overview.png)
+powerbi/screenshots/executive overview.png
 
 ---
 
