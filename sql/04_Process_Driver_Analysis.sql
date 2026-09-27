@@ -239,9 +239,9 @@ Business Insight:
 */
 
 /*==========================================================
-RCA Summary
+Process driver analysis Summary
 
-The following observations were obtained from SQL-based root cause analysis on the shortlisted high-variability process parameters.
+The following observations were obtained from SQL-based process driver analysis on the shortlisted high-variability process parameters.
 
 Parameter                    Finding
 ----------------------------------------------------------
