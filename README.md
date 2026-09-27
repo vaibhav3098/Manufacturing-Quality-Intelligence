@@ -111,6 +111,7 @@ Manufacturing-Quality-Intelligence
 The Power BI dashboard converts analytical findings into business insights through four dedicated pages.
 
 ### Executive Overview
+#### High-level view of quality performance, key deviations, and the process parameters requiring attention.
 
 - Production summary KPIs
 - Best performing ML model
@@ -120,6 +121,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 ---
 
 ### Manufacturing Process Analysis
+#### Examines process variability and operating conditions to identify parameters associated with quality deviation.
 
 - Top process variables influencing product quality
 - Feature importance ranking
@@ -128,6 +130,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 ---
 
 ### Model Performance Evaluation
+#### Evaluates model accuracy and compares predicted quality deviation with actual outcomes.
 
 - Actual vs Predicted comparison
 - Error distribution
@@ -136,6 +139,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 ---
 
 ### Model Diagnostics
+#### Examines prediction errors and residual patterns to assess model reliability and limitations.
 
 - Residual analysis
 - Model validation summary
