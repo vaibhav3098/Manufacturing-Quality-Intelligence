@@ -10,7 +10,7 @@ Manufacturing plants continuously collect process parameters from multiple machi
 
 The challenge is identifying:
 
-- Which process variables have the greatest influence on final product quality.
+- Which process variables have the strongest association/importance on final product quality.
 - Which production stages require immediate engineering attention.
 - Whether machine learning can accurately predict product quality before production completion.
 - How engineers can monitor these insights through an interactive dashboard.
@@ -23,7 +23,7 @@ This project demonstrates a complete industrial analytics workflow covering:
 
 - Data Quality Assessment using SQL
 - Manufacturing Process Analysis
-- Root Cause Analysis
+- Process Driver Analysis
 - Machine Learning Model Development
 - Feature Importance Interpretation
 - Interactive Business Dashboard in Power BI
@@ -54,13 +54,13 @@ SQL Data Health Checks
 Quality Deviation Analysis
         │
         ▼
-Process Root Cause Analysis
+Process Driver Analysis
         │
         ▼
 Python Data Cleaning
         │
         ▼
-Feature Engineering
+Feature Engineering and target suitability assessment
         │
         ▼
 XGBoost Model Training
@@ -87,13 +87,13 @@ Manufacturing-Quality-Intelligence
 ├── notebooks
 │   ├── 01_Data_Health_Report.ipynb
 │   ├── 02_SQL_Insights_Summary.ipynb
-│   └── 03_Data_Preprocessing_and_Model_Training.ipynb
+│   └── 03_Data_Preprocessing.ipynb
 │
 ├── sql
 │   ├── 01_Data_Health_Report.sql
 │   ├── 02_Quality_Deviation_Analysis.sql
 │   ├── 03_Process_Analysis.sql
-│   └── 04_Root_Cause_Analysis.sql
+│   └── 04_Process_Driver_Analysis.sql
 │
 ├── outputs
 │
@@ -143,6 +143,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 
 ## 🎯 Key Results
 
+- Stage 2 M4 initially identified → high zero-value issue → target suitability screening → Stage 2 M1 selected
 - Developed an XGBoost regression model for manufacturing quality prediction.
 - Achieved **R² = 0.62** on unseen test data.
 - Identified the most influential manufacturing parameters affecting quality.
@@ -216,7 +217,7 @@ This solution helps manufacturing teams to:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Manufacturing-Quality-Intelligence.git
+git clone https://github.com/vaibhav3098/Manufacturing-Quality-Intelligence.git
 ```
 
 Install dependencies
@@ -243,9 +244,7 @@ jupyter notebook
 ## 🔮 Future Improvements
 
 - Real-time manufacturing monitoring
-- Model deployment using FastAPI
 - Automated retraining pipeline
-- MLOps integration
 - Predictive maintenance extension
 - SPC (Statistical Process Control) integration
 
