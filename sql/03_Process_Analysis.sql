@@ -597,7 +597,7 @@ MAX([Machine5.Temperature6.C.Actual]) AS Maximum,
 ROUND(AVG([Machine5.Temperature6.C.Actual]),2) AS Average,
 MIN([Machine5.Temperature6.C.Actual]) AS Minimum,
 ROUND(STDEV([Machine5.Temperature6.C.Actual]),2) AS Std_Dev,
-ROUND(100*STDEV([Machine5.Temperature6.C.Actual])/AVG([Machine5.Temperature5.C.Actual]),2) AS Coeff_of_Varaition_percent
+ROUND(100*STDEV([Machine5.Temperature6.C.Actual])/AVG([Machine5.Temperature6.C.Actual]),2) AS Coeff_of_Varaition_percent
 FROM manufacturing_process_optimization;
 
 /*
