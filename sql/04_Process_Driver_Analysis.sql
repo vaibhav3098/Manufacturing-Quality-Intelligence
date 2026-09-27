@@ -1,7 +1,7 @@
 /*==========================================================
 PROJECT : Manufacturing Quality Optimization
 
-FILE    : 03_Root_Cause_Analysis.sql
+FILE    : 03_Process_Driver_Analysis.sql
 
 OBJECTIVE:
 Identify the key process parameters responsible for the highest quality deviation observed during manufacturing.
@@ -9,13 +9,13 @@ Identify the key process parameters responsible for the highest quality deviatio
 AUTHOR  : Vaibhav Sharma
 ==========================================================*/
 /*-----------------------------------------------------------
-RCA Strategy
+Process driver analysis Strategy
 
 • Quality analysis identified Stage 2 Measurement 4 as the largest source of quality deviation.
 
 • Process analysis shortlisted the highest variability process parameters.
 
-• RCA evaluates whether operating levels of these shortlisted parameters are associated with changes in Stage 2 Measurement 4
+• Process driver evaluates whether operating levels of these shortlisted parameters are associated with changes in Stage 2 Measurement 4
   quality deviation.
 -----------------------------------------------------------*/
 
