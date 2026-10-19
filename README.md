@@ -111,6 +111,9 @@ Manufacturing-Quality-Intelligence
 The Power BI dashboard converts analytical findings into business insights through four dedicated pages.
 
 ### Executive Overview
+
+![Executive Overview](powerbi/screenshots/executive_overview.png)
+
 #### High-level view of quality performance, key deviations, and the process parameters requiring attention.
 
 - Production summary KPIs
@@ -121,6 +124,9 @@ The Power BI dashboard converts analytical findings into business insights throu
 ---
 
 ### Manufacturing Process Analysis
+
+![Process Analysis](powerbi/screenshots/process_analysis.png)
+
 #### Examines process variability and operating conditions to identify parameters associated with quality deviation.
 
 - Top process variables influencing product quality
@@ -130,6 +136,9 @@ The Power BI dashboard converts analytical findings into business insights throu
 ---
 
 ### Model Performance Evaluation
+
+![Model Performance](powerbi/screenshots/model_performance.png)
+
 #### Evaluates model accuracy and compares predicted quality deviation with actual outcomes.
 
 - Actual vs Predicted comparison
@@ -139,6 +148,9 @@ The Power BI dashboard converts analytical findings into business insights throu
 ---
 
 ### Model Diagnostics
+
+![Model Diagnostics](powerbi/screenshots/model_diagnostic.png)
+
 #### Examines prediction errors and residual patterns to assess model reliability and limitations.
 
 - Residual analysis
@@ -191,30 +203,6 @@ This solution helps manufacturing teams to:
 - Scikit-learn
 - Matplotlib
 - Seaborn
-
-## 📸 Dashboard Preview
-
-### Executive Overview
-
-![Executive Overview](powerbi/screenshots/executive_overview.png)
-
----
-
-### Manufacturing Process Analysis
-
-![Process Analysis](powerbi/screenshots/process_analysis.png)
-
----
-
-### Model Performance
-
-![Model Performance](powerbi/screenshots/model_performance.png)
-
----
-
-### Model Diagnostics
-
-![Model Diagnostics](powerbi/screenshots/model_diagnostic.png)
 
 ## ⚙ Installation
 
