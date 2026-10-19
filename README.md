@@ -96,11 +96,25 @@ Manufacturing-Quality-Intelligence
 │   └── 04_Process_Driver_Analysis.sql
 │
 ├── outputs
+│   └── feature_importance.csv
+│   └── manufacturing_sql.csv
+│   └── model_performance.csv
+│   └── pareto_feature_importance.csv
 │
 ├── models
+│   └── xgboost_quality_model.pkl
 │
 ├── powerbi
-│   └── screenshots
+│   └── dashboard_preview
+│       └── executive_overview.png
+│       └── process_analysis.png
+│       └── model_performance.png
+│       └── model_diagnostic.png
+│   └── Manufacturing_Quality_Intelligence.pbix
+│ 
+├── screenshots
+│   └── target_assessment.png
+│   └── target_selection.png
 │
 ├── README.md
 └── requirements.txt
