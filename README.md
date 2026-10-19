@@ -181,7 +181,7 @@ The Power BI dashboard converts analytical findings into business insights throu
   ![Target Selection](screenshots/target_selection.png)
   
 - Developed an XGBoost regression model for manufacturing quality prediction.
-- Achieved **R² = 0.62** on unseen test data.
+- The model explains 62% of the variation in the target on the test set (R² = 0.62), indicating useful predictive signal while leaving scope to investigate unexplained variation. Further improvement would focus on analysing prediction errors across process parameters, production stages and operating conditions to identify potential drivers of quality variation and prioritise root-cause investigations.
 - Identified the most influential manufacturing parameters affecting quality.
 - Combined SQL analytics with machine learning to support root-cause analysis.
 - Built an interactive Power BI dashboard for engineering decision-making.
