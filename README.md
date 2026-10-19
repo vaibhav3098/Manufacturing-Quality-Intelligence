@@ -112,7 +112,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 
 ### Executive Overview
 
-![Executive Overview](powerbi/screenshots/executive_overview.png)
+![Executive Overview](powerbi/dashboard_preview/executive_overview.png)
 
 #### High-level view of quality performance, key deviations, and the process parameters requiring attention.
 
@@ -125,7 +125,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 
 ### Manufacturing Process Analysis
 
-![Process Analysis](powerbi/screenshots/process_analysis.png)
+![Process Analysis](powerbi/dashboard_preview/process_analysis.png)
 
 #### Examines process variability and operating conditions to identify parameters associated with quality deviation.
 
@@ -137,7 +137,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 
 ### Model Performance Evaluation
 
-![Model Performance](powerbi/screenshots/model_performance.png)
+![Model Performance](powerbi/dashboard_preview/model_performance.png)
 
 #### Evaluates model accuracy and compares predicted quality deviation with actual outcomes.
 
@@ -149,7 +149,7 @@ The Power BI dashboard converts analytical findings into business insights throu
 
 ### Model Diagnostics
 
-![Model Diagnostics](powerbi/screenshots/model_diagnostic.png)
+![Model Diagnostics](powerbi/dashboard_preview/model_diagnostic.png)
 
 #### Examines prediction errors and residual patterns to assess model reliability and limitations.
 
@@ -161,10 +161,11 @@ The Power BI dashboard converts analytical findings into business insights throu
 
 - Stage 2 M4 initially identified → high zero-value issue → target suitability screening → Stage 2 M1 selected
   ### Target Assessment
-  ![Target Assessment](powerbi/screenshots/target_assessment.png)
+  ![Target Assessment](screenshots/target_assessment.png)
 
     ### Target Selection
-  ![Target Selection](powerbi/screenshots/target_selection.png)
+  ![Target Selection](screenshots/target_selection.png)
+  
 - Developed an XGBoost regression model for manufacturing quality prediction.
 - Achieved **R² = 0.62** on unseen test data.
 - Identified the most influential manufacturing parameters affecting quality.
