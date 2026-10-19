@@ -160,6 +160,11 @@ The Power BI dashboard converts analytical findings into business insights throu
 ## 🎯 Key Results
 
 - Stage 2 M4 initially identified → high zero-value issue → target suitability screening → Stage 2 M1 selected
+  ### Target Assessment
+  ![Target Assessment](powerbi/screenshots/target_assessment.png)
+
+    ### Target Selection
+  ![Target Selection](powerbi/screenshots/target_selection.png)
 - Developed an XGBoost regression model for manufacturing quality prediction.
 - Achieved **R² = 0.62** on unseen test data.
 - Identified the most influential manufacturing parameters affecting quality.
